@@ -1,0 +1,47 @@
+.flyerContainer {
+  position: relative; 
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flyerWrapper {
+  position: relative;
+  width: 80%;
+  max-width: 800px; 
+}
+
+.flyer {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.clickableArea {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 0, 0, 0.5);
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  white-space: nowrap;
+  display: none;
+}
+
+.clickableArea:hover .tooltip {
+  display: block;
+}

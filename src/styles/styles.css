@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.flyer-container {
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+.flyer {
+  width: 100%;
+}
+
+.clickable-area {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 0, 0, 0.5);
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.close-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.product-img {
+  width: 100%;
+  border-radius: 8px;
+}
